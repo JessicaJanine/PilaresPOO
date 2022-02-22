@@ -11,7 +11,7 @@ namespace PilaresPOO.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
-        public void Apresentar()
+        public virtual void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos. Como posso ajudá-lo?");
         }
