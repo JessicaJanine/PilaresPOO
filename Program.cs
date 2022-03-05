@@ -36,6 +36,11 @@ namespace PilaresPOO
             System.Console.WriteLine("Resultado da primeira soma = " + calc.Somar(1,2,3));
             System.Console.WriteLine("Resultado da segunda soma = " + calc.Somar(10, 10));
 
+            Corrente c = new Corrente();
+            c.Creditar(100);
+
+            c.ExibirSaldo();
+
             
         }
     }
