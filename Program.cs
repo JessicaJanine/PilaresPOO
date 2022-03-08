@@ -10,7 +10,7 @@ namespace PilaresPOO
         static void Main(string[] args)
         {
             Pessoa p1 = new Pessoa();
-            p1.Nome = "Jarvis";
+            p1.Nome = "Jarvis (Just A Rather Very Intelligent System)";
             p1.Idade = 50;
 
             p1.Apresentar();
@@ -31,6 +31,11 @@ namespace PilaresPOO
             professor.Salario = 10000;
 
             professor.Apresentar();
+
+            Diretor diretor = new Diretor();
+            diretor.Nome = "Augusto";
+
+            diretor.Apresentar();
 
             Calculadora calc = new Calculadora();
             System.Console.WriteLine("Resultado da primeira soma = " + calc.Somar(1,2,3));

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PilaresPOO.Models
 {
-    public class Professor : Pessoa
+    public sealed class Professor : Pessoa
     {
         public double Salario { get; set; }
 
